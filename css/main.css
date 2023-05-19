@@ -1,0 +1,58 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Quantico', sans-serif;
+    margin: 0 auto;
+    height: 2000px;
+    background: #1c2347;
+    
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.scrollFade {
+    opacity: 1;
+    pointer-events: all;
+  }
+  .scrollFade--hidden {
+    opacity: 0;
+    pointer-events: none;
+  }
+  .scrollFade--visible {
+    opacity: 1;
+    pointer-events: all;
+  }
+  .scrollFade--animate {
+    transition: opacity 0.4s ease-in-out;
+  }
+  #a10img {
+    margin-top: 3.6%;
+    width: 35%;
+    height: 40vh;
+  }
+  #a10img:hover {
+    transition: 1s;
+    opacity: 30%;
+    background-color: #1c2347;
+  }
+.header {
+  position: fixed;
+  width: 100%;
+  background-color: white;
+}
+button {
+  background: white;
+  width: 60px;
+  height: 30px;
+  border: none;
+  border-radius: 6px;
+  margin-right: 100px;
+}
+#products {
+  margin: 10px;
+}
+#discord {
+  margin: 10px;
+}
+#support {
+  margin: 10px;
+}
