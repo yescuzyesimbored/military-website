@@ -4,6 +4,8 @@ body {
     margin: 0 auto;
     height: 2000px;
     background: #1c2347;
+    overflow-x: hidden;
+    padding: 0;
     
 }
 ::-webkit-scrollbar {
@@ -23,16 +25,6 @@ body {
   }
   .scrollFade--animate {
     transition: opacity 0.4s ease-in-out;
-  }
-  #a10img {
-    margin-top: 3.6%;
-    width: 100%;
-    height: 100vh;
-  }
-  #a10img:hover {
-    transition: 1s;
-    opacity: 30%;
-    background-color: #1c2347;
   }
 .header {
   position: fixed;
